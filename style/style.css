@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+    Paletas de cores da imagens
+    #D9BAC9
+    #8C6C8A
+    #324E73
+    #1B261C
+    #D9C5C5
+
+    Paleta de cores da tela de login
+    #8F6885
+    #D9BAC9
+    (Extra #D9C5C5)
+*/
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, html {
+    background-color: #916385;
+    height: 100vh;
+    width: 100vw;
+}
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#login {
+    background-color: #ffecec;
+    width: 250px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
+}
+#login > #imagen{
+    display: block;
+    background: #916385 url(../imagens/pexels-chris-f-3815111.jpg) no-repeat center top;
+    background-size: cover;
+    height: 200px;
+    
+}
