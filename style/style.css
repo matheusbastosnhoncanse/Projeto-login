@@ -34,15 +34,96 @@ main {
 #login {
     background-color: #ffecec;
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
+
+    transition: width 0.3s, height 0.3s ;
+    transition-timing-function: ease;
 }
-#login > #imagen{
+#imagen{
     display: block;
     background: #916385 url(../imagens/pexels-chris-f-3815111.jpg) no-repeat center top;
     background-size: cover;
     height: 200px;
+}
+#formulario {
+    display: block;
+    padding: 10px;
+}
+#formulario  > h1{
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario > p {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.campo {
+    background-color: #D9C5C5;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+.campo > label {
+    color: #916385;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+.campo2 {
+    display: block;
+    background-color: #a360918f;
+    border: none;
+    border-radius: 10px;
+    height: 50%;
+    width: calc(100% - 44px);
+    padding: 4px;
+    transform:  translate(35px , -30px);
     
+}
+.campo2:focus-within {
+    color: white;
+}
+.bottao {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #324E73;
+    color: rgba(255, 255, 255, 0.863);
+    margin: 5px;
+    text-align: center;
+}
+.bottao:hover {
+    background-color: rgba(255, 255, 255, 0.863);
+    color: #324E73;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+.esquesi {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4172b3;
+    color: rgba(255, 255, 255, 0.863);
+    margin: 5px;
+    text-align: center;
+    text-decoration: none; 
+}
+.esquesi:hover {
+    background-color: rgba(255, 255, 255, 0.863);
+    color: #4172b3;
+    transition: 0.5s;
+    transition-timing-function: ease;
 }

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media screen  and (min-width: 768px) and (max-width: 992px) /*Tabelte*/{
+    body {
+        background-image: linear-gradient(to top , #916385 , #cc9ab2 , #D9C5C5);
+        
+    }
+    #login {
+        width: 90vw;
+
+        transition: width 0.3s , height 0.3s ;
+        transition-timing-function: ease;
+    }
+    #imagen {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    #formulario {
+        float: right;
+        width: 60%;
+    }
+}
+@media screen  and (min-width: 992px) /*Telas grandes*/{
+    body {
+        background-image: linear-gradient(to top , #916385 , #cc9ab2 , #D9C5C5);
+        
+    }
+    #login {
+        width: 90vw;
+
+        transition: width 0.3s , height 0.3s ;
+        transition-timing-function: ease;
+    }
+    #imagen {
+        float: right;
+        width: 45%;
+        height: 100%;
+    }
+    #formulario {
+        float: left;
+        width: 55%;
+        height: 100%;
+    }
+    #formulario > h1 {
+        font-size: 2em;
+    }
+    #formulario > p {
+        font-size: 20px;
+        line-height: 2em;
+    }
+}
